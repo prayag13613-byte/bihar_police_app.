@@ -21,3 +21,8 @@
     "recharts": "3.2.0"
   }
 }
+```json
+   "scripts": {
+     "predeploy": "npm run build",
+     "deploy": "gh-pages -d build"
+   }
